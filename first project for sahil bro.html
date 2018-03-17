@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> chetan </title>
+<style>
+h1 
+{   color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 200%;
+}
+</style>
+</head>
+<body bgcolor="cyan">
+
+<h1>FIRST PROJECT FOR SAHIL BRO </h1>
+<p> addition=</p>
+<p id="demo"></p>
+<p> sub=</p>
+<p id="demo1"></p>
+<p> multiplication=</p>
+<p id="demo2"></p>
+<p> division=</p>
+<p id="demo3"></p>
+<button onclick="myfunction()">addition!</button>
+<button onclick="myfunction1()">sub!</button>
+<button onclick="myfunction2()">multiplication!</button>
+<button onclick="myfunction3()">division!</button>
+<script>
+var           Number1, // this is the first string input by the user
+Number2 , // this is the second string input by the user
+Num1 , // numeric value converted from Number1
+Num2, // numeric value converted from Number2
+sum,
+difference ,
+product,
+quotient;
+Number1=window.prompt("Enter your first Integer","0");
+Number2=window.prompt("Enter your second integer","0");
+Num1=parseInt(Number1);
+Num2=parseInt(Number2);
+function myfunction()
+{
+document.getElementById("demo").innerHTML = Num1+Num2;
+}
+function myfunction1()
+{
+document.getElementById("demo1").innerHTML = Num1-Num2;}
+
+function myfunction2()
+{
+document.getElementById("demo2").innerHTML = Num1*Num2;
+}
+function myfunction3()
+{
+document.getElementById("demo3").innerHTML = Num1/Num2;
+}
+</script>
+</body>
+</html>

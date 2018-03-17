@@ -1,0 +1,33 @@
+body
+{
+ border:25px solid #bdc3c7; 
+ max-width:700px;
+ width:80%;
+ height:700px;
+ margin:auto;
+ margin-top: 30px;
+padding:12px;
+}
+p{
+	font-family: "Source Sans pro";
+}
+.hello
+{
+	color:#3498db;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin-left: 14px;
+}
+h2
+{
+	color:#2c3e50;
+}
+.bye{margin-left: 10px;
+	border-left: 6px solid #bdc3c7;
+padding-left:4px; }
+
+hr{
+	margin-left:15px;
+	margin-right: 15px;
+	color:#bdc3c7;
+}
